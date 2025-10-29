@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ========== Global Styles ========== */
+
+body {
+  @apply bg-gray-50 text-gray-900 font-sans;
+}
+
+.container {
+  @apply max-w-6xl mx-auto px-4;
+}
+
+h1, h2, h3, h4 {
+  @apply font-semibold text-gray-800;
+}
+
+button {
+  @apply transition-all duration-200;
+}
+
+/* Example custom color variables */
+:root {
+  --primary: #2563eb; /* blue-600 */
+  --secondary: #64748b; /* slate-500 */
+}
